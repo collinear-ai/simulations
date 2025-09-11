@@ -22,8 +22,8 @@ pip install -e .[all]
 ```
 # Generate 100 conversations across 8 personas and 6 intents
 simulate run \
-  --agent-model-url $USER_MODEL_URL \
-  --agent-api-key $USER_API_KEY \
+  --agent-model-url $AGENT_MODEL_URL \
+  --agent-api-key $AGENT_API_KEY \
   --personas config/personas.yaml \
   --intents  config/intents.yaml \
   --n 100 \
