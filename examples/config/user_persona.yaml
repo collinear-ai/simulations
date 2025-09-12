@@ -1,0 +1,27 @@
+persona_config:
+  traits:
+    impatient:
+      intensity_levels: [1, 2, 3, 4, 5]
+    incoherent:
+      intensity_levels: [1, 2, 3, 4, 5]
+    confused:
+      intensity_levels: [1, 2, 3, 4, 5]
+    skeptic:
+      intensity_levels: [1, 2, 3, 4, 5]
+
+
+  attributes:
+    age:
+      categories: ["<18", "18-24", "25-40", "41-60", "61-80", ">80"]
+    gender:
+      categories: ["male", "female", "other"]
+    occupation:
+      categories: ["student", "business_owner", "employed", "freelancer", "retired", "unemployed", "other"]
+    location:
+      categories: ["USA", "Canada", "UK", "Australia", "other"]
+    language:
+      categories: ["English", "Spanish", "French", "other"]
+
+  conv_params:
+    num_turns: 8   # number of dialogue turns per simulation
+    total_simulations: 100   # total number of simulations to run
