@@ -1,0 +1,81 @@
+{
+  "ages": [
+    "<18",
+    "18-24",
+    "25-40",
+    "41-60",
+    "61-80",
+    ">80"
+  ],
+  "genders": [
+    "male",
+    "female",
+    "other"
+  ],
+  "occupations": [
+    "student",
+    "business_owner",
+    "employed",
+    "freelancer",
+    "retired",
+    "unemployed",
+    "other"
+  ],
+  "intents": [
+    "search_products",
+    "add_to_cart_and_checkout",
+    "apply_promo_codes",
+    "track_order_status",
+    "modify_or_cancel_order",
+    "return_or_exchange_items",
+    "manage_account_details",
+    "apply_or_redeem_rewards",
+    "subscription_management",
+    "report_damaged_or_missing_items",
+    "warranty_or_repair_requests",
+    "general_inquiries"
+  ],
+  "traits": {
+    "impatient": [
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "incoherent": [
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "confused": [
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "skeptic": [
+      1,
+      2,
+      3,
+      4,
+      5
+    ]
+  },
+  "locations": [
+    "USA",
+    "Canada",
+    "UK",
+    "Australia",
+    "other"
+  ],
+  "languages": [
+    "English",
+    "Spanish",
+    "French",
+    "other"
+  ]
+}

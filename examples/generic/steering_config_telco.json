@@ -1,0 +1,74 @@
+{
+  "ages": [
+    "<18",
+    "18-24",
+    "25-40",
+    "41-60",
+    "61-80",
+    ">80"
+  ],
+  "genders": [
+    "male",
+    "female",
+    "other"
+  ],
+  "occupations": [
+    "student",
+    "business_owner",
+    "employed",
+    "freelancer",
+    "retired",
+    "unemployed",
+    "other"
+  ],
+  "intents": [
+    "view_or_pay_bill",
+    "dispute_charges",
+    "setup_autopay",
+    "upgrade_or_downgrade_plan",
+    "add_ons_data_roaming_family_lines",
+    "prepaid_recharge",
+    "report_network_outage",
+    "troubleshoot_device_or_sim",
+    "request_technician_visit",
+    "buy_or_upgrade_device",
+    "tradein_or_financing",
+    "insurance_claims"
+  ],
+  "traits": {
+    "impatience": [
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "confusion": [
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "skeptical": [
+      1,
+      2,
+      3,
+      4,
+      5
+    ]
+  },
+  "locations": [
+    "USA",
+    "Canada",
+    "UK",
+    "Australia",
+    "other"
+  ],
+  "languages": [
+    "English",
+    "Spanish",
+    "French",
+    "other"
+  ]
+}

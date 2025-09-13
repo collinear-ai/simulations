@@ -1,0 +1,81 @@
+{
+  "ages": [
+    "<18",
+    "18-24",
+    "25-40",
+    "41-60",
+    "61-80",
+    ">80"
+  ],
+  "genders": [
+    "male",
+    "female",
+    "other"
+  ],
+  "occupations": [
+    "student",
+    "business_owner",
+    "employed",
+    "freelancer",
+    "retired",
+    "unemployed",
+    "other"
+  ],
+  "intents": [
+    "search_and_book_room",
+    "modify_reservation",
+    "cancel_booking",
+    "early_checkin_or_late_checkout",
+    "room_upgrades_or_amenities_request",
+    "service_requests_housekeeping_laundry_maintenance",
+    "book_dining_or_spa",
+    "request_local_recommendations",
+    "arrange_transportation",
+    "redeem_loyalty_points",
+    "request_invoice",
+    "report_billing_discrepancies"
+  ],
+  "traits": {
+    "impatient": [
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "incoherent": [
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "confused": [
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "skeptic": [
+      1,
+      2,
+      3,
+      4,
+      5
+    ]
+  },
+  "locations": [
+    "USA",
+    "Canada",
+    "UK",
+    "Australia",
+    "other"
+  ],
+  "languages": [
+    "English",
+    "Spanish",
+    "French",
+    "other"
+  ]
+}
