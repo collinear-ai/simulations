@@ -10,19 +10,14 @@
     "student"
   ],
   "intents": [
-    "search_flights",
-    "make_booking",
-    "modify_booking",
-    "cancel_booking_request_refund",
-    "online_checkin",
-    "seat_selection_or_upgrade",
-    "boarding_pass_retrieval",
-    "check_flight_status",
-    "track_baggage",
-    "rebook_due_to_disruption",
-    "manage_frequent_flyer_account",
-    "redeem_or_earn_miles",
-    "request_lounge_access"
+    "Cancel Booking",
+    "Modify Booking",
+    "Check Flight Status",
+    "Track Baggage",
+    "Rebook Due to Disruption",
+    "Manage Frequent Flyer Account",
+    "Redeem or Earn Miles",
+    "Request Lounge Access"
   ],
   "traits": {
     "impatience": [
