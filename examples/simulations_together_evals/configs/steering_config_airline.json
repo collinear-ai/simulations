@@ -1,25 +1,13 @@
 {
   "ages": [
     "<18",
-    "18-24",
-    "25-40",
-    "41-60",
-    "61-80",
-    ">80"
+    "18-24"
   ],
   "genders": [
-    "male",
-    "female",
-    "other"
+    "male"
   ],
   "occupations": [
-    "student",
-    "business_owner",
-    "employed",
-    "freelancer",
-    "retired",
-    "unemployed",
-    "other"
+    "student"
   ],
   "intents": [
     "search_flights",
@@ -45,31 +33,16 @@
       5
     ],
     "confusion": [
-      1,
-      2,
-      3,
-      4,
-      5
+      3
     ],
     "skeptical": [
-      1,
-      2,
-      3,
-      4,
-      5
+      3
     ]
   },
   "locations": [
-    "USA",
-    "Canada",
-    "UK",
-    "Australia",
-    "other"
+    "USA"
   ],
   "languages": [
-    "English",
-    "Spanish",
-    "French",
-    "other"
+    "English"
   ]
 }
