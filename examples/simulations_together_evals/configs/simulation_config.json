@@ -25,7 +25,7 @@
   },
   "prompts": {
     "assistant_system_prompt": null,
-    "user_task_prompt": null
+    "user_system_prompt": null
   },
   "together": {
     "output_directory": ".",
