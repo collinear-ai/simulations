@@ -1,0 +1,43 @@
+{
+  "ages": [
+    "<18",
+    "18-24"
+  ],
+  "genders": [
+    "male"
+  ],
+  "occupations": [
+    "student"
+  ],
+  "intents": [
+    "Cancel Booking",
+    "Modify Booking",
+    "Check Flight Status",
+    "Track Baggage",
+    "Rebook Due to Disruption",
+    "Manage Frequent Flyer Account",
+    "Redeem or Earn Miles",
+    "Request Lounge Access"
+  ],
+  "traits": {
+    "impatience": [
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "confusion": [
+      3
+    ],
+    "skeptical": [
+      3
+    ]
+  },
+  "locations": [
+    "USA"
+  ],
+  "languages": [
+    "English"
+  ]
+}
