@@ -24,8 +24,7 @@
     "max_tokens": 512
   },
   "prompts": {
-    "assistant_system_prompt": null,
-    "user_system_prompt": null
+    "assistant_system_prompt": null
   },
   "steering_config_file": "steering_config_airline.json"
 }
