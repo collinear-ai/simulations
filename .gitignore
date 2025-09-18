@@ -15,8 +15,7 @@ venv.bak/
 *.swo
 *.log
 *.bak
-*.json*
-.DS_Store
+examples/simulations_together_evals/*.json*
 
 # Custom
 results/
