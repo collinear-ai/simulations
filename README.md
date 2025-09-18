@@ -28,6 +28,7 @@ curl -LsSf https://astral.sh/uv/install.sh | sh
 uv venv --python 3.12 --seed
 uv pip install --upgrade pip
 uv pip install jupyterlab ipykernel together collinear nest_asyncio jinja2
+uv pip install -e examples/rl/tau-bench mistralai==0.4.2 httpx==0.27.2 # tau-bench (RL) dependencies
 uv run python -m ipykernel install --user --name collinear-synthetic
 ```
 

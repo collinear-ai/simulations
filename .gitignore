@@ -17,3 +17,6 @@ venv.bak/
 *.bak
 *.json*
 .DS_Store
+
+# Custom
+results/

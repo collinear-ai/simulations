@@ -1,9 +1,9 @@
 {
   "client": {
     "assistant_model_url": "https://api.openai.com/v1",
-    "assistant_model_api_key": "",
+    "assistant_model_api_key": null,
     "assistant_model_name": "gpt-4o-mini",
-    "steer_api_key": "",
+    "steer_api_key": null,
     "timeout": 120,
     "max_retries": 3,
     "rate_limit_retries": 6
