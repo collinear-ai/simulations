@@ -53,6 +53,15 @@ def stringify_messages(messages: List[Dict[str, Any]]) -> str:
         res += f"{message['role']}: {message['content']}\n"
     return res
 
+def flip_user_assistant_roles(messages: List[Dict[str, Any]]) -> List[Dict[str, Any]]:
+    messages_flipped = messages.copy()
+    for message in messages_flipped:
+        if message['role'] == 'user':
+            message['role'] = 'assistant'
+        elif message['role'] == 'assistant':
+            message['role'] = 'user'
+    return messages_flipped
+
 def steer_completions(messages: List[Dict[str, Any]], trait_dict: Dict[str, Any]) -> str:
     messages = clean_messages(messages)
     response = requests.post(
@@ -93,7 +102,7 @@ class LLMUserSimulationEnv(BaseUserSimulationEnv):
         self.trait_dict = trait_dict
         self.reset()
 
-    def generate_next_message(self, messages: List[Dict[str, Any]]) -> str:
+    def generate_next_message(self, messages: List[Dict[str, Any]], resetting: bool = False) -> str:
         if self.provider == "steer": 
             message = steer_completions(messages=messages, trait_dict=self.trait_dict)
             messages.append(message)
@@ -107,7 +116,8 @@ class LLMUserSimulationEnv(BaseUserSimulationEnv):
         self.total_cost = 0
 
         ##print the last 2 messages
-        print(stringify_messages(clean_messages(messages[-2:])))
+        print(stringify_messages(clean_messages(flip_user_assistant_roles(messages[-2:]))))
+  
         return message['content']
 
     def build_system_prompt(self, instruction: Optional[str]) -> str:
@@ -116,6 +126,7 @@ class LLMUserSimulationEnv(BaseUserSimulationEnv):
             if instruction is not None
             else ""
         )
+        print(instruction_display)
         return f"""You are a user interacting with an agent.{instruction_display}
 Rules:
 - Just generate one line at a time to simulate the user's message.
@@ -134,11 +145,11 @@ Rules:
             },
             {"role": "user", "content": "Hi! How can I help you today?"},
         ]
-        return self.generate_next_message(self.messages)
+        return self.generate_next_message(self.messages, resetting=True)
 
     def step(self, content: str) -> str:
         self.messages.append({"role": "user", "content": content})
-        return self.generate_next_message(self.messages)
+        return self.generate_next_message(self.messages, resetting=False)
 
     def get_total_cost(self) -> float:
         return self.total_cost
