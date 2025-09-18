@@ -31,6 +31,7 @@ def run(config: RunConfig) -> List[EnvRunResult]:
     ckpt_path = f"{config.log_dir}/{config.agent_strategy}-{config.model.split('/')[-1]}-{config.temperature}_range_{config.start_index}-{config.end_index}_user-{config.user_model}-{config.user_strategy}_{time_str}.json"
     if not os.path.exists(config.log_dir):
         os.makedirs(config.log_dir)
+    print("===== STARTING TEST RUN ======")
 
     print(f"Loading user with strategy: {config.user_strategy}")
     env = get_env(
@@ -66,6 +67,7 @@ def run(config: RunConfig) -> List[EnvRunResult]:
             random.shuffle(idxs)
 
         def _run(idx: int) -> EnvRunResult:
+            
             isolated_env = get_env(
                 config.env,
                 user_strategy=config.user_strategy,
@@ -75,7 +77,8 @@ def run(config: RunConfig) -> List[EnvRunResult]:
                 task_index=idx,
                 trait_dict=config.trait_dict,
             )
-
+            print("===== ENDING TEST RUN ======")
+            print("STARTING ROLLOUT")
             print(f"Running task {idx}")
             try:
                 res = agent.solve(
