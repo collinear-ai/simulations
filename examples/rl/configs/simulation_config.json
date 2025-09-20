@@ -21,7 +21,7 @@
     "judge_model_url": null,
     "judge_model_api_key": null,
     "judge_model_name": null,
-    "temperature": 0.0,
+    "temperature": 0.7,
     "max_tokens": 512
   },
   "prompts": {
