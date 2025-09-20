@@ -1,6 +1,6 @@
 # Tau-Hard docs  
 
-In the simulations_RL notebook, we run Tau-Hard, leveraging the Collinear TraitBasis technology to improve the realism of the user turns. 
+In the simulations_RL notebook, we run Tau-Hard (Collinear's version of Tau Bench for Agent robustness testing), leveraging the Collinear TraitBasis technology to improve the realism of the user turns. 
 
 ```
 import argparse
@@ -35,7 +35,9 @@ config = RunConfig(
 )
 ```
 
-## Tau-Hard Settings
+You can also just set the configurations in `tau_hard_config.json`. The definitions of the settings are below.
+
+## Tau-Hard Config Settings
 ### General
 - **`--num-trials`** *(int, default: 1)*  
   Number of independent trials to run.
