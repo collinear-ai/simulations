@@ -1,0 +1,27 @@
+
+{
+  "model_provider": "openai",
+  "user_model_provider": "steer",
+  "model": "gpt-4o-mini",
+  "user_model": "",
+  "num_trials": 1,
+  "env": "retail",
+  "agent_strategy": "tool-calling",
+  "temperature": 0.7,
+  "task_split": "test",
+  "start_index": 0,
+  "end_index": -1,
+  "task_ids": [4],
+  "log_dir": "results",
+  "max_concurrency": 8,
+  "seed": 10,
+  "shuffle": 0,
+  "user_strategy": "traitbasis",
+  "few_shot_displays_path": null,
+  "trait_dict": {
+    "impatience": 1,
+    "confusion": 0,
+    "skeptical": 2,
+    "incoherence": 0
+  }
+}

@@ -1,0 +1,84 @@
+{
+  "ages": [
+    16,
+    21,
+    32,
+    50,
+    70,
+    85
+  ],
+  "genders": [
+    "male",
+    "female",
+    "other"
+  ],
+  "occupations": [
+    "student",
+    "business_owner",
+    "employed",
+    "freelancer",
+    "retired",
+    "unemployed",
+    "other"
+  ],
+  "intents": [
+    "create_health_profile",
+    "set_fitness_goals",
+    "nutrition_preferences_or_restrictions",
+    "exercise_recommendations",
+    "nutrition_tracking_and_meals",
+    "habit_tracking",
+    "log_progress",
+    "progress_reports",
+    "personalized_motivation_reminders",
+    "ask_health_questions",
+    "request_plan_adjustments",
+    "integration_with_wearables"
+  ],
+  "traits": {
+    "impatient": [
+      -2,
+      -1,
+      0,
+      1,
+      2
+    ],
+    "incoherent": [
+      -2,
+      -1,
+      0,
+      1,
+      2
+    ],
+    "confused": [
+      -2,
+      -1,
+      0,
+      1,
+      2
+    ],
+    "skeptic": [
+      -2,
+      -1,
+      0,
+      1,
+      2
+    ]
+  },
+  "locations": [
+    "USA",
+    "Canada",
+    "UK",
+    "Australia",
+    "other"
+  ],
+  "languages": [
+    "English",
+    "Spanish",
+    "French",
+    "other"
+  ],
+  "tasks": [
+    "health coaching"
+  ]
+}

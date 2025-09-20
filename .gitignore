@@ -1,0 +1,21 @@
+.ipynb_checkpoints
+__pycache__
+*.pyc
+*.pyo
+*.pyd
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+.DS_Store
+.idea/
+.vscode/
+*.swp
+*.swo
+*.log
+*.bak
+examples/simulations_together_evals/*.json*
+
+# Custom
+results/

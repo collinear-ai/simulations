@@ -1,0 +1,47 @@
+{
+  "client": {
+    "assistant_model_url": "https://api.together.xyz/v1",
+    "assistant_model_api_key": "TOGETHER_API_KEY",
+    "assistant_model_name": "ASSISTANT_MODEL_NAME",
+    "steer_api_key": "STEER_API_KEY",
+    "timeout": 120,
+    "max_retries": 3,
+    "rate_limit_retries": 6
+  },
+  "simulate": {
+    "k": 10,
+    "num_exchanges": 10,
+    "batch_delay": 0.2,
+    "steer_temperature": 0.7,
+    "steer_max_tokens": 256,
+    "mix_traits": false,
+    "max_concurrency": 8
+  },
+  "assess": {
+    "judge_model_url": null,
+    "judge_model_api_key": null,
+    "judge_model_name": "JUDGE_MODEL_NAME",
+    "temperature": 0.0,
+    "max_tokens": 512
+  },
+  "prompts": {
+    "assistant_system_prompt": null,
+    "user_system_prompt": null
+  },
+  "together": {
+    "output_directory": ".",
+    "output_filename": "collinear_eval_dataset",
+    "judge_system_prompt": "configs/judge_system_prompt.jinja",
+    "upload_purpose": "eval",
+    "evaluation_type": "score",
+    "model_to_evaluate": "assistant_response",
+    "judge_model_source": "serverless",
+    "min_score": 1.0,
+    "max_score": 10.0,
+    "pass_threshold": 7.0,
+    "poll_timeout_seconds": 300,
+    "poll_interval_seconds": 5,
+    "results_filename_prefix": "together_eval_intent_understanding.jsonl"
+  },
+  "steering_config_file": "steering_config_airline.json"
+}

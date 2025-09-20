@@ -1,0 +1,78 @@
+{
+  "ages": [
+    16,
+    21,
+    32,
+    50,
+    70,
+    85
+  ],
+  "genders": [
+    "male",
+    "female",
+    "other"
+  ],
+  "occupations": [
+    "student",
+    "business_owner",
+    "employed",
+    "freelancer",
+    "retired",
+    "unemployed",
+    "other"
+  ],
+  "intents": [
+    "search_flights",
+    "make_booking",
+    "modify_booking",
+    "cancel_booking_request_refund",
+    "online_checkin",
+    "seat_selection_or_upgrade",
+    "boarding_pass_retrieval",
+    "check_flight_status",
+    "track_baggage",
+    "rebook_due_to_disruption",
+    "manage_frequent_flyer_account",
+    "redeem_or_earn_miles",
+    "request_lounge_access"
+  ],
+  "traits": {
+    "impatience": [
+      -2,
+      -1,
+      0,
+      1,
+      2
+    ],
+    "confusion": [
+      -2,
+      -1,
+      0,
+      1,
+      2
+    ],
+    "skeptical": [
+      -2,
+      -1,
+      0,
+      1,
+      2
+    ]
+  },
+  "locations": [
+    "USA",
+    "Canada",
+    "UK",
+    "Australia",
+    "other"
+  ],
+  "languages": [
+    "English",
+    "Spanish",
+    "French",
+    "other"
+  ],
+  "tasks": [
+    "airline support"
+  ]
+}
