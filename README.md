@@ -28,8 +28,8 @@ curl -LsSf https://astral.sh/uv/install.sh | sh
 uv venv --python 3.12 --seed
 uv pip install --upgrade pip
 uv pip install jupyterlab ipykernel together collinear nest_asyncio jinja2
-uv pip install -e examples/rl/tau-bench mistralai==0.4.2 httpx==0.27.2 # tau-bench (RL) dependencies
-uv run python -m ipykernel install --user --name collinear-synthetic
+uv pip install -e examples/rl/tau-hard mistralai==0.4.2 httpx==0.27.2 # tau-hard (RL) dependencies
+uv run python -m ipykernel install --user --name trait-basis
 ```
 
 If you plan to call Together endpoints, export your API key in the active shell:
@@ -45,4 +45,4 @@ Start Jupyter from the project root:
 uv run --with jupyter jupyter lab
 ```
 
-Select the `collinear-synthetic` kernel in each notebook and run the grouped import cell before generating simulations.
+Select the `trait-basis` kernel in each notebook and run the grouped import cell before generating simulations.
