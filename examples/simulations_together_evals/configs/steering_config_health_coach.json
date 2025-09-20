@@ -36,28 +36,28 @@
     "integration_with_wearables"
   ],
   "traits": {
-    "impatient": [
+    "impatience": [
       -2,
       -1,
       0,
       1,
       2
     ],
-    "incoherent": [
+    "incoherence": [
       -2,
       -1,
       0,
       1,
       2
     ],
-    "confused": [
+    "confusion": [
       -2,
       -1,
       0,
       1,
       2
     ],
-    "skeptic": [
+    "skeptical": [
       -2,
       -1,
       0,
