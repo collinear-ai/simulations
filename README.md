@@ -3,7 +3,7 @@ Generate realistic, high-fidelity, multi-turn user interactions conditioned on u
 
 TraitBasis is a method for highly-controllable generations that does not suffer from the limitations of prompt-based approaches like the user persona fading with number of turns or the user forgetting the intent in a long context. We will be releasing our paper shortly.
 
-Demo notebooks can be found in the `examples/` directory. Contact info@collinear.ai for an API key to generate high quality synthetic data.
+Demo notebooks can be found in the `examples/` directory. Contact info@collinear.ai for an API key to generate simulations using TraitBasis.
 
 ## Features
 - Generate multi-turn customer interactions directly from the example notebooks.
