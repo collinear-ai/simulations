@@ -19,7 +19,7 @@ from typing import Dict, Any
 
 
 def run(config: RunConfig) -> List[EnvRunResult]:
-    assert config.env in ["retail", "airline"], "Only retail and airline envs are supported"
+    assert config.env in ["retail", "airline", "telecom", "telehealth"], "Only retail, airline, telecom, and telehealth envs are supported"
     assert config.model_provider in provider_list, "Invalid model provider"
     # assert config.user_model_provider in provider_list, "Invalid user model provider"
     assert config.agent_strategy in ["tool-calling", "act", "react", "few-shot"], "Invalid agent strategy"
