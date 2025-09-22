@@ -36,5 +36,27 @@ def get_env(
             task_index=task_index,
             trait_dict=trait_dict,
         )
+    elif env_name == "telecom":
+        from tau_hard.envs.telecom import MockTelecomDomainEnv
+
+        return MockTelecomDomainEnv(
+            user_strategy=user_strategy,
+            user_model=user_model,
+            task_split=task_split,
+            user_provider=user_provider,
+            task_index=task_index,
+            trait_dict=trait_dict,
+        )
+    elif env_name == "telehealth":
+        from tau_hard.envs.telehealth import MockTelehealthDomainEnv
+
+        return MockTelehealthDomainEnv(
+            user_strategy=user_strategy,
+            user_model=user_model,
+            task_split=task_split,
+            user_provider=user_provider,
+            task_index=task_index,
+            trait_dict=trait_dict,
+        )
     else:
         raise ValueError(f"Unknown environment: {env_name}")
