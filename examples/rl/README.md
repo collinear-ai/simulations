@@ -1,16 +1,16 @@
-# Tau-Hard docs  
+# TauTrait docs  
 
-In the simulations_RL notebook, we run Tau-Hard (Collinear's version of Tau Bench for Agent robustness testing), leveraging the Collinear TraitBasis technology to improve the realism of the user turns. 
+In the simulations_RL notebook, we run TauTrait (Collinear's version of Tau Bench for Agent robustness testing), leveraging the Collinear TraitBasis technology to improve the realism of the user turns. 
 
 ```
 import argparse
-from tau_hard.types import RunConfig
-from tau_hard.run import run
+from tau_trait.types import RunConfig
+from tau_trait.run import run
 from litellm import provider_list
-from tau_hard.envs.user import UserStrategy
+from tau_trait.envs.user import UserStrategy
 
-from tau_hard.types import RunConfig
-from tau_hard.run import run
+from tau_trait.types import RunConfig
+from tau_trait.run import run
 
 config = RunConfig(
     model_provider="openai",
@@ -29,15 +29,15 @@ config = RunConfig(
     max_concurrency=1,
     seed=10,
     shuffle=0,
-    user_strategy="llm",
+    user_strategy="trait-mix",
     few_shot_displays_path=None,
     trait_dict={"impatience": 1, "confusion": 0, "skeptical": 0, "incoherence": 0},
 )
 ```
 
-You can also just set the configurations in `tau_hard_config.json`. The definitions of the settings are below.
+You can also just set the configurations in `tau_trait_config.json`. The definitions of the settings are below.
 
-## Tau-Hard Config Settings
+## TauTrait Config Settings
 ### General
 - **`--num-trials`** *(int, default: 1)*  
   Number of independent trials to run.
