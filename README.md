@@ -25,11 +25,13 @@ Install uv if you don't already have it, then prepare the environment:
 
 ```bash
 curl -LsSf https://astral.sh/uv/install.sh | sh
+source .venv/bin/activate
 uv venv --python 3.12 --seed
 uv pip install --upgrade pip
 uv pip install jupyterlab ipykernel together collinear nest_asyncio jinja2
-uv pip install -e examples/rl/tau-hard mistralai==0.4.2 httpx==0.27.2 # tau-hard (RL) dependencies
-uv run python -m ipykernel install --user --name trait-basis
+uv pip install "openai>=1.13.3" "mistralai>=0.4.0" "anthropic>=0.26.1" "google-generativeai>=0.5.4" "tenacity>=8.3.0" "termcolor>=2.4.0" "numpy>=1.26.4" "litellm==1.41.0"
+uv pip install -i https://test.pypi.org/simple/ tau-trait
+
 ```
 
 If you plan to call Together endpoints, export your API key in the active shell:
