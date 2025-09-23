@@ -16,7 +16,7 @@
   "max_concurrency": 8,
   "seed": 10,
   "shuffle": 0,
-  "user_strategy": "traitbasis",
+  "user_strategy": "llm",
   "few_shot_displays_path": null,
   "trait_dict": {
     "impatience": 1,
