@@ -1,2 +1,0 @@
-recursive-include tau_hard *.json
-recursive-include tau_hard *.md
