@@ -30,7 +30,7 @@ uv venv --python 3.12 --seed
 uv pip install --upgrade pip
 uv pip install jupyterlab ipykernel together collinear nest_asyncio jinja2
 uv pip install "openai>=1.13.3" "mistralai>=0.4.0" "anthropic>=0.26.1" "google-generativeai>=0.5.4" "tenacity>=8.3.0" "termcolor>=2.4.0" "numpy>=1.26.4" "litellm==1.41.0"
-uv pip install -i https://test.pypi.org/simple/ tau-trait
+uv pip install tau-trait
 
 ```
 
