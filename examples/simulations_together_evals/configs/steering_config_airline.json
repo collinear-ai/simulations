@@ -1,13 +1,22 @@
 {
   "ages": [
-    16,
-    21
+    "13-17",
+    "18-24",
+    "25-34",
+    "35-44",
+    "45-54",
+    "55-64",
+    "65+"
   ],
   "genders": [
     "male"
   ],
   "occupations": [
-    "student"
+    "Unemployed",
+    "Employed",
+    "Student",
+    "Retired",
+    "Not in Labor Force"
   ],
   "intents": [
     "Cancel Booking",
@@ -21,22 +30,16 @@
   ],
   "traits": {
     "impatience": [
-      -2,
-      -1,
       0,
       1,
       2
     ],
     "confusion": [
-      -2,
-      -1,
       0,
       1,
       2
     ],
     "skeptical": [
-      -2,
-      -1,
       0,
       1,
       2
