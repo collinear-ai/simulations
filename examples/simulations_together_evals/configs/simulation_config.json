@@ -1,9 +1,9 @@
 {
   "client": {
     "assistant_model_url": "https://api.together.xyz/v1",
-    "assistant_model_api_key": "TOGETHER_API_KEY",
-    "assistant_model_name": "ASSISTANT_MODEL_NAME",
-    "steer_api_key": "STEER_API_KEY",
+    "assistant_model_api_key": "ef5b3fdb2f90e067e128dc8db46bcc72bc54fca72b3e616657544582c9e979cc",
+    "assistant_model_name": "openai/gpt-oss-20b",
+    "steer_api_key": "together-001",
     "timeout": 120,
     "max_retries": 3,
     "rate_limit_retries": 6
