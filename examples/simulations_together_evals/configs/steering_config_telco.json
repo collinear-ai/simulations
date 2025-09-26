@@ -1,26 +1,7 @@
 {
-  "ages": [
-    16,
-    21,
-    32,
-    50,
-    70,
-    85
-  ],
-  "genders": [
-    "male",
-    "female",
-    "other"
-  ],
-  "occupations": [
-    "student",
-    "business_owner",
-    "employed",
-    "freelancer",
-    "retired",
-    "unemployed",
-    "other"
-  ],
+  "ages": ["13-17", "18-24", "25-34", "35-44", "45-54", "55-64", "65+"],
+  "genders": ["male", "female", "other"],
+  "occupations": ["Unemployed", "Employed", "Student", "Retired", "Not in Labor Force"],
   "intents": [
     "view_or_pay_bill",
     "dispute_charges",
@@ -36,27 +17,10 @@
     "insurance_claims"
   ],
   "traits": {
-    "impatience": [
-      -2,
-      -1,
-      0,
-      1,
-      2
-    ],
-    "confusion": [
-      -2,
-      -1,
-      0,
-      1,
-      2
-    ],
-    "skeptical": [
-      -2,
-      -1,
-      0,
-      1,
-      2
-    ]
+    "impatience": [0, 1, 2],
+    "incoherence": [0, 1, 2],
+    "confusion": [0, 1, 2],
+    "skeptical": [0, 1, 2]
   },
   "locations": [
     "USA",

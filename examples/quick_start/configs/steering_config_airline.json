@@ -1,26 +1,7 @@
 {
-  "ages": [
-    16,
-    21,
-    32,
-    50,
-    70,
-    85
-  ],
-  "genders": [
-    "male",
-    "female",
-    "other"
-  ],
-  "occupations": [
-    "student",
-    "business_owner",
-    "employed",
-    "freelancer",
-    "retired",
-    "unemployed",
-    "other"
-  ],
+  "ages": ["13-17", "18-24", "25-34", "35-44", "45-54", "55-64", "65+"],
+  "genders": ["male", "female", "other"],
+  "occupations": ["Unemployed", "Employed", "Student", "Retired", "Not in Labor Force"],
   "intents": [
     "search_flights",
     "make_booking",
@@ -37,42 +18,12 @@
     "request_lounge_access"
   ],
   "traits": {
-    "impatience": [
-      -2,
-      -1,
-      0,
-      1,
-      2
-    ],
-    "confusion": [
-      -2,
-      -1,
-      0,
-      1,
-      2
-    ],
-    "skeptical": [
-      -2,
-      -1,
-      0,
-      1,
-      2
-    ]
+    "impatience": [0, 1, 2],
+    "incoherence": [0, 1, 2],
+    "confusion": [0, 1, 2],
+    "skeptical": [0, 1, 2]
   },
-  "locations": [
-    "USA",
-    "Canada",
-    "UK",
-    "Australia",
-    "other"
-  ],
-  "languages": [
-    "English",
-    "Spanish",
-    "French",
-    "other"
-  ],
-  "tasks": [
-    "airline support"
-  ]
+  "locations": ["USA", "Canada", "UK", "Australia"],
+  "languages": ["English"],
+  "tasks": ["airline support"]
 }
