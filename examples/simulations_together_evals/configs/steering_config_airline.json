@@ -1,54 +1,29 @@
 {
-  "ages": [
-    16,
-    21
-  ],
-  "genders": [
-    "male"
-  ],
-  "occupations": [
-    "student"
-  ],
+  "ages": ["13-17", "18-24", "25-34", "35-44", "45-54", "55-64", "65+"],
+  "genders": ["male", "female", "other"],
+  "occupations": ["Unemployed", "Employed", "Student", "Retired", "Not in Labor Force"],
   "intents": [
-    "Cancel Booking",
-    "Modify Booking",
-    "Check Flight Status",
-    "Track Baggage",
-    "Rebook Due to Disruption",
-    "Manage Frequent Flyer Account",
-    "Redeem or Earn Miles",
-    "Request Lounge Access"
+    "search_flights",
+    "make_booking",
+    "modify_booking",
+    "cancel_booking_request_refund",
+    "online_checkin",
+    "seat_selection_or_upgrade",
+    "boarding_pass_retrieval",
+    "check_flight_status",
+    "track_baggage",
+    "rebook_due_to_disruption",
+    "manage_frequent_flyer_account",
+    "redeem_or_earn_miles",
+    "request_lounge_access"
   ],
   "traits": {
-    "impatience": [
-      -2,
-      -1,
-      0,
-      1,
-      2
-    ],
-    "confusion": [
-      -2,
-      -1,
-      0,
-      1,
-      2
-    ],
-    "skeptical": [
-      -2,
-      -1,
-      0,
-      1,
-      2
-    ]
+    "impatience": [0, 1, 2],
+    "incoherence": [0, 1, 2],
+    "confusion": [0, 1, 2],
+    "skeptical": [0, 1, 2]
   },
-  "locations": [
-    "USA"
-  ],
-  "languages": [
-    "English"
-  ],
-  "tasks": [
-    "airline support"
-  ]
+  "locations": ["USA", "Canada", "UK", "Australia"],
+  "languages": ["English"],
+  "tasks": ["airline support"]
 }
