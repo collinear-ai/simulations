@@ -1,7 +1,7 @@
 
 {
   "model_provider": "openai",
-  "user_model_provider": "steer",
+  "user_model_provider": "traitmix",
   "model": "gpt-4o-mini",
   "user_model": "",
   "num_trials": 1,
