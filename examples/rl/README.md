@@ -14,9 +14,9 @@ from tau_trait.run import run
 
 config = RunConfig(
     model_provider="openai",
-    user_model_provider="steer",
+    user_model_provider="traitmix",
     model=CLIENT_ASSISTANT_MODEL_NAME,
-    user_model="", # steer api abstracts the model
+    user_model="", # traitmix api abstracts the model
     num_trials=1,
     env="retail",
     agent_strategy="tool-calling",
