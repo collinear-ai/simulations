@@ -1,4 +1,7 @@
 # Collinear Simulations using *TraitBasis*
+
+[![arXiv](https://img.shields.io/badge/arxiv-2510.04491-b31b1b)](https://arxiv.org/abs/2510.04491) &nbsp; &nbsp; [![Blog:TraitBasis](https://img.shields.io/badge/Blog-TraitBasis-orange)](https://blog.collinear.ai/p/trait-basis) &nbsp; &nbsp; [![Benchmark:TauTrait](https://img.shields.io/badge/Benchmark-TauTrait-blue)](https://github.com/collinear-ai/tau-trait)
+
 Generate realistic, high-fidelity, multi-turn user interactions conditioned on user intents and user personas (traits and attributes). Simulations can be used to evaluate agents, to create training data for long horizon RL training, or to prototype product flows.
 
 TraitBasis is a method for highly-controllable generations that does not suffer from the limitations of prompt-based approaches like the user persona fading with number of turns or the user forgetting the intent in a long context. We will be releasing our paper shortly.
