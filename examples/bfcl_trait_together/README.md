@@ -1,11 +1,13 @@
 # BFCL Trait: Function Call Evaluation using Traits for Together Models
 
-## Leaderboard Table
+## Leaderboard Table (`multi_turn_base`)
 | Model (base score) \ Trait | Confusion | Skepticism | Impatience | Incoherence |
 |:---|:---:|:---:|:---:|:---:|
-| GPT 4o (0.59) | 0.19 | 0.21 | 0.35 | 0.29 |
-| Kimi K2 (0.60) | 0.18 | 0.12 | 0.31 | 0.20 |
-| GLM 4.5 (0.75) | 0.17 | 0.18 | 0.33 | 0.25 |
+| GPT 4o (0.59) | 0.19 (-0.40) | 0.21 (-0.38) | 0.35 (-0.24) | 0.29 (-0.30) |
+| Kimi K2 (0.60) | 0.18 (-0.42) | 0.12 (-0.48) | 0.31 (-0.29) | 0.20 (-0.40) |
+| GLM 4.5 (0.75) | 0.17 (-0.58) | 0.18 (-0.57) | 0.33 (-0.42) | 0.25 (-0.50) |
+
+> Drop from base show in parenthesis
 
 ## File Structure
 ```
