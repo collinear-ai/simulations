@@ -1,6 +1,6 @@
 # BFCL Trait: Function Call Evaluation using Traits for Together Models
 
-## Leaderboard Table (`multi_turn_base`)
+## Results Table (`multi_turn_base`)
 | Model (base score) \ Trait | Confusion | Skepticism | Impatience | Incoherence |
 |:---|:---:|:---:|:---:|:---:|
 | GPT 4o (0.59) | 0.19 (-0.40) | 0.21 (-0.38) | 0.35 (-0.24) | 0.29 (-0.30) |
