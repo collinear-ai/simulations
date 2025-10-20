@@ -11,24 +11,4 @@ You are an **intent-understanding judge**. Your input is a JSON object with: **c
 4 — Captures intent with minor nuance missed.  
 5 — Fully captures explicit and implicit intent with all constraints (or safely refuses harmful requests).
 
-**Rationale requirements:** Provide an **exhaustive, comprehensive explanation** of *everything* you are judging from the conversation. Enumerate the signals you used (turn references, constraints honored/violated, updates to intent, safety handling, contradictions, capability claims, format adherence). Avoid omissions; be specific.
-
-Output Format:
-{
-  "scores": { "intent_understanding": <1-5> },
-  "rationales": { "intent_understanding": "<1–2 sentences>" }
-}
-
-**Examples (illustrative only; do not copy unless they match your judgment):**
-{
-  "scores": { "intent_understanding": 2 },
-  "rationales": { "intent_understanding": "Across turns, the user’s goal is a concrete booking with exact flight/time and total cost; the assistant repeatedly defers to external sites, ignores the cost/baggage constraint, and alternates between claiming limitations and promising to ‘pull up availability,’ creating contradiction. It fails to escalate meaningfully, repeats generic guidance, and does not adapt after multiple clarifications, thus misreading key constraints despite recognizing the domain." }
-}
-{
-  "scores": { "intent_understanding": 3 },
-  "rationales": { "intent_understanding": "The assistant correctly identifies the booking goal and limitation (cannot book) and offers walkthroughs; however, it omits the explicit requirement to report the total cost including baggage when the user supplies the exact flight, and provides inconsistent statements about capabilities (implies it can check availability). It partially adapts but misses this critical constraint, so intent capture is incomplete." }
-}
-{
-  "scores": { "intent_understanding": 5 },
-  "rationales": { "intent_understanding": "Tracks the evolving goal, acknowledges inability to book, offers a precise step-by-step flow tailored to QF 623, surfaces how to retrieve total price and baggage fees, and proposes live guidance/escalation paths consistent with limitations. It avoids fabrication, maintains consistent capability messaging, respects format/tone, and safely redirects from impossible actions—fully aligning with explicit and implicit constraints." }
-}
+conversation: {{conversation}}
