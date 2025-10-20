@@ -1,12 +1,13 @@
-# Collinear Simulations using *TraitBasis*
+# Collinear TraitMix Simulations
 
-[![arXiv](https://img.shields.io/badge/arxiv-2510.04491-b31b1b)](https://arxiv.org/abs/2510.04491) &nbsp; &nbsp; [![Blog:TraitBasis](https://img.shields.io/badge/Blog-TraitBasis-orange)](https://blog.collinear.ai/p/trait-basis) &nbsp; &nbsp; [![Benchmark:TauTrait](https://img.shields.io/badge/Benchmark-TauTrait-blue)](https://github.com/collinear-ai/tau-trait)
+&nbsp; &nbsp;[![arXiv](https://img.shields.io/badge/arxiv-2510.04491-b31b1b)](https://arxiv.org/abs/2510.04491) &nbsp; &nbsp; [![Blog:TraitBasis](https://img.shields.io/badge/Blog-TraitBasis-orange)](https://blog.collinear.ai/p/trait-basis) &nbsp; &nbsp; [![Benchmark:TauTrait](https://img.shields.io/badge/Benchmark-TauTrait-blue)](https://github.com/collinear-ai/tau-trait)
 
-Generate realistic, high-fidelity, multi-turn user interactions conditioned on user intents and user personas (traits and attributes). Simulations can be used to evaluate agents, to create training data for long horizon RL training, or to prototype product flows.
+<img width="1216" height="704" alt="traitmix" src="https://github.com/user-attachments/assets/4dce85b0-bef4-42dc-b00e-5586d7a04014" height="10" /><br/>
+Collinear **TraitMix** is a product for AI agent sandbox testing with simulations. With **TraitMix** , you can generate realistic, high-fidelity, multi-turn user interactions conditioned on user intents and user personas (traits and attributes). TraitMix can be used to evaluate agents, to create training data for long horizon RL training, or to prototype product flows.<br/>
 
-TraitBasis is a method for highly-controllable generations that does not suffer from the limitations of prompt-based approaches like the user persona fading with number of turns or the user forgetting the intent in a long context. We will be releasing our paper shortly.
+**TraitMix** is powered by our cutting-edge research on steering personas called **TraitBasis**. TraitBasis is a method for highly-controllable generations that does not suffer from the limitations of prompt-based approaches like the user persona fading with number of turns or the user forgetting the intent in a long context. 
 
-Demo notebooks can be found in the `examples/` directory. Contact info@collinear.ai for an API key to generate simulations using TraitBasis.
+You will need a Collinear API key to run TraitMix that you can get by signing up [here](https://platform.collinear.ai/). Demo notebooks can be found in the `examples/` directory. 
 
 ## Features
 - Generate multi-turn customer interactions directly from the example notebooks.
@@ -17,9 +18,9 @@ Demo notebooks can be found in the `examples/` directory. Contact info@collinear
 
 
 ## Example folders
-- `examples/quick_start/`: Minimal notebook to generate TraitBasis-driven rollouts.
+- `examples/quick_start/`: Minimal notebook to generate TraitMix rollouts.
 - `examples/rl/`: Rollouts tailored for long-horizon RL training workflows using examples similar to Tau Bench
-- `examples/simulations_together_evals/`: Together model as the agent + Together Evals judging end-to-end.
+- `examples/simulations_together_evals/`: End-to-end testing for nay other hosted on Together using Together Evals.
 
 
 ## Getting Started
