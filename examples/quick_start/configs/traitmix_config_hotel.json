@@ -1,0 +1,41 @@
+{
+  "ages": ["13-17", "18-24", "25-34", "35-44", "45-54", "55-64", "65+"],
+  "genders": ["male", "female", "other"],
+  "occupations": ["Unemployed", "Employed", "Student", "Retired", "Not in Labor Force"],
+  "intents": [
+    "search_and_book_room",
+    "modify_reservation",
+    "cancel_booking",
+    "early_checkin_or_late_checkout",
+    "room_upgrades_or_amenities_request",
+    "service_requests_housekeeping_laundry_maintenance",
+    "book_dining_or_spa",
+    "request_local_recommendations",
+    "arrange_transportation",
+    "redeem_loyalty_points",
+    "request_invoice",
+    "report_billing_discrepancies"
+  ],
+  "traits": {
+    "impatience": [0, 1, 2],
+    "incoherence": [0, 1, 2],
+    "confusion": [0, 1, 2],
+    "skeptical": [0, 1, 2]
+  },
+  "locations": [
+    "USA",
+    "Canada",
+    "UK",
+    "Australia",
+    "other"
+  ],
+  "languages": [
+    "English",
+    "Spanish",
+    "French",
+    "other"
+  ],
+  "tasks": [
+    "hotel support"
+  ]
+}

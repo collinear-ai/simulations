@@ -1,0 +1,41 @@
+{
+  "ages": ["13-17", "18-24", "25-34", "35-44", "45-54", "55-64", "65+"],
+  "genders": ["male", "female", "other"],
+  "occupations": ["Unemployed", "Employed", "Student", "Retired", "Not in Labor Force"],
+  "intents": [
+    "create_health_profile",
+    "set_fitness_goals",
+    "nutrition_preferences_or_restrictions",
+    "exercise_recommendations",
+    "nutrition_tracking_and_meals",
+    "habit_tracking",
+    "log_progress",
+    "progress_reports",
+    "personalized_motivation_reminders",
+    "ask_health_questions",
+    "request_plan_adjustments",
+    "integration_with_wearables"
+  ],
+  "traits": {
+    "impatience": [0, 1, 2],
+    "incoherence": [0, 1, 2],
+    "confusion": [0, 1, 2],
+    "skeptical": [0, 1, 2]
+  },
+  "locations": [
+    "USA",
+    "Canada",
+    "UK",
+    "Australia",
+    "other"
+  ],
+  "languages": [
+    "English",
+    "Spanish",
+    "French",
+    "other"
+  ],
+  "tasks": [
+    "health coaching"
+  ]
+}

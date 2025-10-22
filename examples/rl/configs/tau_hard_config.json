@@ -1,7 +1,7 @@
 
 {
   "model_provider": "openai",
-  "user_model_provider": "steer",
+  "user_model_provider": "traitmix",
   "model": "gpt-4o-mini",
   "user_model": "",
   "num_trials": 1,
@@ -16,7 +16,7 @@
   "max_concurrency": 8,
   "seed": 10,
   "shuffle": 0,
-  "user_strategy": "traitbasis",
+  "user_strategy": "llm",
   "few_shot_displays_path": null,
   "trait_dict": {
     "impatience": 1,

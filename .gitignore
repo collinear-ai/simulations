@@ -16,6 +16,6 @@ venv.bak/
 *.log
 *.bak
 examples/simulations_together_evals/*.json*
-
+.env
 # Custom
 results/

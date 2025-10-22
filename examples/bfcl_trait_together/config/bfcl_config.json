@@ -1,0 +1,20 @@
+{
+    "model": "moonshotai/Kimi-K2-Instruct-0905",
+    "model_type": "together",
+    "is_fc_model": false,
+    "test_category": [
+        "multi_turn_base"
+    ],
+    "temperature": 0.001,
+    "include_input_log": false,
+    "exclude_state_log": false,
+    "num_threads": 1,
+    "skip_server_setup": false,
+    "local_model_path": null,
+    "result_dir": "result",
+    "score_dir": "score",
+    "allow_overwrite": false,
+    "run_ids": false,
+    "trait": "skeptical",
+    "intensity": "medium"
+}

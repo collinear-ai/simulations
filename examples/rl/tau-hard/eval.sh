@@ -1,1 +1,0 @@
- python run.py --agent-strategy tool-calling --env retail --model gpt-4o --model-provider openai --user-model gpt-4o --user-model-provider steer --user-strategy llm  --task-ids 4 5 9 11 14 15 16 19
